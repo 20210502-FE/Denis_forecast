@@ -1,0 +1,130 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html. body {
+    height: 100%;
+}
+
+body {
+    position: relative;
+}
+li {
+    list-style: none;
+}
+
+.container {
+   background-color: #3399CC;
+    color: white;
+    padding: 20px 0;
+    height: 900px;
+}
+
+.container__wrapper {
+    max-width: calc(100vw - 50px);
+    margin: 0 auto;
+
+}
+
+.container__title {
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.container__content {
+    margin-bottom: 30px;
+}
+
+.weather_list {
+    font-size: 0;
+
+}
+
+.weather-list__item {
+    display: inline-block;
+    font-size: 25px;
+    border: 1px solid #ffffff;
+    width: 25%;
+    padding: 15px 0;
+    text-align: center;
+}
+
+.container__bottom-text {
+    font-size: 20px;
+    font-weight: bold;
+    height: 10%;
+
+}
+
+.weather-list__item_50 {
+    width: 50%;
+
+}
+
+.weather-list__item > span {
+    display: block;
+}
+
+.weather-list__item_100 {
+    width: 100%;
+}
+
+.weather-list__item_bg-blue {
+    background-color: blue;
+}
+
+.weather-list__item_bg-tiffany {
+    background-color: cyan;
+}
+
+.weather-list__item_bg-Heliotrope {
+    background-color: darkslateblue;
+}
+
+.weather-list__item_bg-red {
+    background-color: red;
+}
+
+.weather-list__item_bg-Burnt_Sienna {
+    background-color: indianred;
+}
+
+.weather-list__item_bg-yellow {
+    background-color: yellow;
+}
+
+.weather-list__item_bg-Yellow_Green {
+    background-color: lightgreen;
+}
+
+.weather-list__item_bg-De_York {
+    background-color: deeppink;
+}
+
+.weather-list__item_bg-Lavender_Magenta {
+    background-color: limegreen;
+}
+
+.weather-list__item_bg-light_green {
+    background-color: green;
+}
+
+.weather-list__item_bg-Blue {
+    background-color: rebeccapurple;
+}
+
+.weather_list.weather-list__item {
+    border-color: #ffffff;
+    border-style: solid;
+
+}
+
+ul {
+    border-width: 1px 0 0 1px;
+}
+
+ul > li {
+    border-width: 1px 0 0 1px;
+}
